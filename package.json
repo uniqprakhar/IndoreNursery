@@ -1,0 +1,38 @@
+{
+  "name": "indore-nursery",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Indore Nursery — plant catalog website with WhatsApp inquiry ordering, managed via Sanity CMS.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "generate-placeholders": "node scripts/generate-placeholders.mjs",
+    "seed": "node scripts/seed.mjs"
+  },
+  "dependencies": {
+    "@sanity/client": "^6.22.2",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.62.3",
+    "next": "^14.2.15",
+    "next-sanity": "^9.8.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sanity": "^3.62.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.15",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^16.4.5",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

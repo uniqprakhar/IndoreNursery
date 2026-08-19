@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3ede9"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <g transform="translate(400 252) scale(3.076923076923077)" fill="#1f5c46" opacity="0.9">
+    <path d="M0 -60 C 34 -60 60 -34 60 0 C 60 34 34 60 0 60 C -34 60 -60 34 -60 0 C -60 -34 -34 -60 0 -60 Z" opacity="0.15"/>
+    <path d="M0 -46 C 20 -30 26 -6 14 18 C 8 30 -4 40 -18 42 C -20 20 -14 -4 0 -22 C -8 -12 -14 0 -16 14 C -22 4 -22 -14 -12 -28 C -6 -38 4 -44 0 -46 Z"/>
+  </g>
+  <text x="50%" y="432" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#1f5c46" font-weight="600">Pots & Accessories</text>
+  
+</svg>
